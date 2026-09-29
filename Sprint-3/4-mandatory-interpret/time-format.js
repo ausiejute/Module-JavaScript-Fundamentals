@@ -32,7 +32,7 @@ function formatTimeDisplay(seconds) {
 // =============> "00"
 
 // d) What is the value assigned to num when pad is called for the last time in this program?  Explain your answer
-// =============> 1, because that's the actual value assigned to the num parameter
+// =============> 1, because that's the actual value assigned to the num parameter (remainingSeconds is 1)
 
 // e) What is the return value of pad when it is called for the last time in this program?  Explain your answer
 // =============> "01", the remainingSeconds is 1, which gets padded to "01" in the return value
