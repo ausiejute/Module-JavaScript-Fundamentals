@@ -15,11 +15,11 @@
 // Use the MDN string documentation to help you find a solution
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
-function upperCaseMaker(str) {
+function upperSnakeCaseMaker(str) {
   let upperCased = str.toUpperCase();
   let symbol = "_";
   let underscored = upperCased.split(" ").join(symbol);
   return underscored;
 }
 
-console.log(upperCaseMaker("the sun is shining"));
+console.log(upperSnakeCaseMaker("the sun is shining"));
