@@ -22,5 +22,10 @@ function toPounds(penceString) {
   return `£${pounds}.${pence}`;
 }
 
-console.log(toPounds("11000p"));
 // results of some different inputs: 0p -> £0.00, 3p -> £0.03, 50p -> £0.50, 170p -> £1.70, 1200p -> £12.00, 11000p -> £110.00
+console.log(toPounds("0p"));
+console.log(toPounds("3p"));
+console.log(toPounds("50p"));
+console.log(toPounds("170p"));
+console.log(toPounds("1200p"));
+console.log(toPounds("11000p"));
